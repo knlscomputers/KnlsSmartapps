@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fece2f"
+
+    tools:context=".VerifyPhoneNo">
+
+    <EditText
+
+        android:id="@+id/verification_code_by_user"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="OTP"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+
+        android:text="Submit"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+
+        />
+</LinearLayout>

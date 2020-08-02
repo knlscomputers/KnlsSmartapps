@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "974339328487",
+    "firebase_url": "https://knls-smartapp.firebaseio.com",
+    "project_id": "knls-smartapp",
+    "storage_bucket": "knls-smartapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974339328487:android:096f01d7386d6379e6d542",
+        "android_client_info": {
+          "package_name": "com.example.knlssmartapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974339328487-aph6jcu32k2780gmhlmik4flvi62t071.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.knlssmartapp",
+            "certificate_hash": "d3af244e668aac6d49b4158e0bfbc8c760d9f9c9"
+          }
+        },
+        {
+          "client_id": "974339328487-f4ovcm3qtmtr6sq36emrdjgcu0caqb0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.knlssmartapp",
+            "certificate_hash": "3045e195b25863629a67b73fb5370e5032ea56b4"
+          }
+        },
+        {
+          "client_id": "974339328487-d4km0ot448qcj4len6ni4ru5o9vr59pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMRaWGpix2CYeT3EKqw92aYFiffPZvij0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974339328487-d4km0ot448qcj4len6ni4ru5o9vr59pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

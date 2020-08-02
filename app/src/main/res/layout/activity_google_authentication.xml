@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GoogleAuthentication">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/google_icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:includeFontPadding="false"
+        android:paddingTop="20sp"
+        android:shadowColor="#0E0E0E"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="45sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:shadowColor="#0E0E0E"
+        android:text="Sign-In with Google!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/google_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:text="Sign In with Google"
+
+
+
+
+        android:textColor="#000" />
+
+
+
+
+
+
+</LinearLayout>
